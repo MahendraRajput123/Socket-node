@@ -64,7 +64,7 @@ io.on("connection", (socket) => {
 
 });
 
-const PORT = 8001; // or any other port you prefer
+const PORT = 2001; // or any other port you prefer
 server.listen(PORT, () => {
   console.log(`Server is running on https://localhost:${PORT}`);
 });
